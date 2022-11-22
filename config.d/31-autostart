@@ -1,0 +1,8 @@
+### Music
+exec --no-startup-id mpd ~/.config/mpd/mpd.conf &
+
+### Notification daemon
+exec dunst
+
+### Notification daemon
+exec blueman-applet
